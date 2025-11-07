@@ -76,20 +76,7 @@ def draw_square(height:int)->None:
     """
     pass
 
-def draw_pyramid(height:int)->None:
-    
-    """
-    Draws a centered pyramid pattern of asterisks (*) with the given height.
-    
-    Parameters:
-        height (int): The height of the pyramid. Must be a positive integer.
-        
-    Returns:
-        None: Prints the pyramid pattern directly to console.
-        
-    """
-    
-    pass
+
 
 def draw_triangle(height:int)->None:
     
@@ -124,8 +111,21 @@ def draw_triangle_reversed(height:int)->None:
     
     pass
 
-
-
+# TODO: BONUS QUESTION
+def draw_pyramid(height:int)->None:
+    
+    """
+    Draws a centered pyramid pattern of asterisks (*) with the given height.
+    
+    Parameters:
+        height (int): The height of the pyramid. Must be a positive integer.
+        
+    Returns:
+        None: Prints the pyramid pattern directly to console.
+        
+    """
+    
+    pass
          
                 
 # TODO: add support for other shapes
@@ -147,6 +147,6 @@ def draw(shape:str, height:int)->None:
         None: Prints the requested shape pattern directly to console.
     """
     
-    if shape == "pyramid":
-        draw_pyramid(height)
+    if shape == "square":
+        draw_square(height)
 
